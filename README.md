@@ -1,13 +1,9 @@
 # Utilizing Viola–Jones for Face Detection and LBPH for Face Recognition
 # Minor project
 
-## Team Members
+## Team Member
 
 * Gourav Thakur
-* Amrit Mishra
-* Krishna Nayak
-* Nikhil Bhasin
-
 
 
 ## Getting Started
