@@ -47,9 +47,33 @@ From requirement.txt Auto install these using command : pip install -r requireme
 
 -------------------------------------------------------------------------
 
-# Step 4>
+# step 4
+create trainer folder in root
+and model.xml inside it
+
+# step 5
+delete .gitkeep from faces/persons folder
+
+# Step 6>
 cd into the folder
 run this command >> python main.py
+
+
+issues #1 -->
+
+size_hint: 0.2, 0.2 to increase size of icons
+
+issue #2 -->
+correct : 
+    <RootWidget>
+        MDNavigationLayout:
+            ScreenManager:
+
+incorrect
+    <RootWidget>
+        NavigationLayout:
+            ScreenManager:
+
 
 ## How to use
 
@@ -62,7 +86,6 @@ Before you can detect faces, you have to train the Algorithm
 
 start by teaching the algorithm your face, stay still.
 Now, after the program captures your face, it can now detect faces.
-
 
 
 
