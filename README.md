@@ -65,14 +65,19 @@ size_hint: 0.2, 0.2 to increase size of icons
 
 issue #2 -->
 correct : 
+```
     <RootWidget>
         MDNavigationLayout:
             ScreenManager:
+    
+```
 
 incorrect
+```
     <RootWidget>
         NavigationLayout:
             ScreenManager:
+```
 
 
 ## How to use
